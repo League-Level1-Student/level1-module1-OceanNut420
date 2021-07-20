@@ -17,6 +17,8 @@ package _02_cat;
 		*/
 
 
+
+
 public class Cat {
 
 	private String name;
@@ -27,7 +29,7 @@ public class Cat {
 	}
 
 	void meow() {
-		System.out.println("meeeeeooooooooooowwwwwwwww!!");
+		System.out.println("moew!!??");
 	}
 
 	public void printName() {
@@ -47,7 +49,21 @@ public class Cat {
 			System.out.println("DEAD CAT :(");
 	}
 
-
+	
+	
+	
+	public class CatRunner{
+		
+		
+		
+		public void cat() {
+			
+			System.out.println("moew!!??");
+			
+		}	
+	}
+	
+	
 }
 
 

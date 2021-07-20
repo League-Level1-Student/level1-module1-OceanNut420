@@ -75,5 +75,26 @@ public class RaceCar {
 			positionInRace--;
 			System.out.println("Your car has moved into position number "+positionInRace+"!");
 		}
+		
+		//shmode:
+		//1
+		positionInRace = 5;
+		
+		//2
+		System.out.println("ye car is in " + positionInRace + " place");
+		
+		//3
+		crash();
+		
+		//4
+		if(isDamaged() == true) {
+			pit();
+		}
+		//5
+		if(positionInRace > 1) {
+		overtake();
+		
+		}
+		
 	}
 }
