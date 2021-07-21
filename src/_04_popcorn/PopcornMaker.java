@@ -6,11 +6,14 @@ public class PopcornMaker {
 
 	public static void main(String[] args) {
 		
-	Popcorn p = new Popcorn("");
+	String ewe = JOptionPane.showInputDialog("what flavor popcorn?");
+	String min = JOptionPane.showInputDialog("how many minutes?");
+	int cat = Integer.parseInt(min);
+	Popcorn p = new Popcorn(ewe);
 	Microwave m = new Microwave();
 	m.putInMicrowave(p);
-	m.setTime(1);
-	String ewe = JOptionPane.showInputDialog("what flavor popcorn?");
+	m.setTime(cat);
+	m.startMicrowave();
 	
 	}
 }
