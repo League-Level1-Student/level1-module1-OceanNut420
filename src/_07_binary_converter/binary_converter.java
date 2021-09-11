@@ -11,7 +11,9 @@ public class binary_converter {
 		
 		JPanel panel = new JPanel();
 		JFrame frame = new JFrame();
-		JTextField text = new JTextField(20);
+		JTextField answer = new JTextField(20);
+		
+		JPanel fanpiluh = new JPanel();
 		
 		String convert(String input) {
 		    if(input.length() != 8){
